@@ -1,0 +1,12 @@
+{
+    "name": "backendbox/messages_handler",
+    "description": "Handle Message and Delivery",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "backendbox\\handler\\": "src/"
+        }
+    }
+}
