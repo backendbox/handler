@@ -1,7 +1,7 @@
 <?php
-namespace backendbox\handler;
+namespace Backendbox\Handler;
 
-class handler
+class Handler
 {
     public static function world()
     {

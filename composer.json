@@ -6,7 +6,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-          "backendbox\\handler\\": "src/"
+          "Backendbox\\handler\\": "src/"
         }
     }
 }

@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 
-use backendbox\handler\handler;
+use Backendbox\Handler\Handler;
 
-$hello = new handler();
+$hello = new Handler();
 $hello->world();
