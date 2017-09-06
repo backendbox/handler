@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "phpcompanion": {
+         "namespace_prefix": "Backendbox\\Handler",
+         "start_dir_pattern": "^(?:.*?src)(.*)$",
+    }
+}

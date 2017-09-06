@@ -1,5 +1,5 @@
 {
-    "name": "backendbox/messages_handler",
+    "name": "backendbox/handler",
     "description": "Handle Message and Delivery",
     "type": "library",
     "minimum-stability": "dev",
