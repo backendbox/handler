@@ -5,6 +5,6 @@ class Handler
 {
     public static function world()
     {
-        echo  'Hello World, Composer!';
+        echo  'Hello World, Composers!';
     }
 }
