@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'backendbox\\handler\\' => array($baseDir . '/src'),
+    'Backendbox\\Handler\\' => array($baseDir . '/src'),
 );
