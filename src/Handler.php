@@ -13,7 +13,7 @@ class Handler
         $this->type = $type;
     }
 
-    public static function world()
+    public function world()
     {
         echo $this->string;
         echo $this->type;
