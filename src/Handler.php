@@ -4,15 +4,18 @@ namespace Backendbox\Handler;
 
 class Handler
 {
-    public $PROPERTY;
+    public $string;
+    public $type;
 
-    public function __construct($PROPERTY)
+    public function __construct($string = null, $type = "fb")
     {
-        $this->PROPERTY = $PROPERTY;
+        $this->string = $string;
+        $this->type = $type;
     }
 
     public static function world()
     {
-        echo  'Hello World, Composers!';
+        echo $this->string;
+        echo $this->type;
     }
 }
